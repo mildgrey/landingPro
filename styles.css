@@ -1,0 +1,59 @@
+
+#header{
+    position: fixed;
+}
+
+@media only screen and (max-width: 800px) {
+    body {
+      background-color: grey
+    }
+    
+  }
+
+img{
+    display: inline;
+    height: 50px;
+    width: 50px;
+    float: left;
+    border-radius: 5px;
+    
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    background-color: none;
+  }
+  
+  .flex-container > div {
+    
+    /* width: 100%; */
+     margin: 10px; 
+    text-align: center;
+    /* line-height: 75px; */
+    float: right;
+    font-size: 30px;
+  }
+  a{
+    text-decoration: none;
+    color: black;
+  }
+  iframe{
+    
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+  }
+  #email{
+    display: block;
+    margin: auto;
+  }
+  #submit{
+    color: whitesmoke;
+    background-color: blue;
+    display: block;
+    margin: auto;
+    margin-top: 5px;
+  }
+  
